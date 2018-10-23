@@ -6,15 +6,15 @@ This program contains several lighting modes using Raspberry Pi (any type, but t
 
 
 ### Modes (list is not yet complete) :construction:
-- [ ] allon - Turns all LEDs on
+- [x] allon - Turns all LEDs on
 
     :red_circle::red_circle: :red_circle: :red_circle: :red_circle: :red_circle: :red_circle: :red_circle:
     
-- [ ] alloff  - Turns all LEDs off (used mostly in testing)
+- [x] alloff  - Turns all LEDs off (used mostly in testing)
 
     :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: 
     
-- [ ] kitt - Lights LEDs from center to the edges like in Knight Rider
+- [x] kitt - Lights LEDs from center to the edges like in Knight Rider
 
     :black_circle: :black_circle: :black_circle: :red_circle: :red_circle: :black_circle: :black_circle: :black_circle: 
     

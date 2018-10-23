@@ -7,9 +7,8 @@ except RuntimeError:
 except ImportError:
     print("This program must be run on Raspberry Pi with RPi.GPIO module installed.")
     exit(1)
-from .modes import MAX_DELAY, all_on, all_off, kitt
 from .arg_parser import init_args
-
+from .modes import MAX_DELAY, all_on, all_off, kitt, left_to_right, right_to_left, to_center
 
 GPIO.setmode(GPIO.BCM)
 
@@ -29,10 +28,15 @@ modes = {
     'allon': all_on,
     'alloff': all_off,
     'kitt': kitt,
+    'lefttoright': left_to_right,
+    'righttoleft': right_to_left,
+    'tocenter': to_center,
     'help': help_text
 }
 
 args = init_args()
 
 if __name__ == '__main__':
+    print("Lighting up!")
     modes[args['mode']](pins)
+    print("Completed!")

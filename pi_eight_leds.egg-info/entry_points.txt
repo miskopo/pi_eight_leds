@@ -1,0 +1,3 @@
+[console_scripts]
+pi_eight_leds = pi_eight_leds.__main__:main
+

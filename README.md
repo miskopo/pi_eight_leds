@@ -1,7 +1,7 @@
 ## Raspberry Pi eight LED modes
 
 ### Requirements: :airplane:
-This program contains several lighting modes using Raspberry Pi (any type, but tested on Zero) and following connection:
+This program contains several lighting modes using Raspberry Pi (any type, but tested on Zero) and is designed for following connection:
 ![Scheme](static_files/scheme.png)
 
 

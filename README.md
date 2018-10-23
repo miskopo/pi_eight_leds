@@ -3,7 +3,6 @@
 ### Requirements: :airplane:
 This program contains several lighting modes using Raspberry Pi (any type, but tested on Zero) and following connection:
 ![Scheme](static_files/scheme.png)
-![Real](static_files/real.png)
 
 
 ### Modes (list is not yet complete) :construction:

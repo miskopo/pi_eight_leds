@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d101584-0e55-4cc7-b53f-8f3bb4022506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pi_eight_leds/arg_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pi_eight_leds/modes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -11,7 +9,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds.egg-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds.egg-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds.egg-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pi_eight_leds/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds/arg_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds/arg_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi_eight_leds/modes.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi_eight_leds/modes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_files/real.png" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/real.png" afterDir="false" />
@@ -49,14 +54,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1131" />
+          <entry key="Markdown" value="1134" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="1570" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1131" />
+          <entry key="md" value="1134" />
           <entry key="py" value="1570" />
           <entry key="txt" value="8" />
         </counts>
@@ -67,12 +72,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="63">
-                <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
+              <first_editor relative-caret-position="336">
+                <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pi_eight_leds/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
@@ -157,12 +162,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pi_eight_leds/arg_parser.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/pi_eight_leds/modes.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/pi_eight_leds/__main__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -278,7 +283,7 @@
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="23-10-2018">
-        <observation name="cancelled" value="1400.0" />
+        <observation name="cancelled" value="1403.0" />
         <observation name="explicitSelect" value="55.0" />
         <observation name="typedSelect" value="79.0" />
       </dailyData>
@@ -290,7 +295,7 @@
     </factor>
     <factor id="completionUsage">
       <dailyData date="23-10-2018">
-        <observation name="count" value="1534.0" />
+        <observation name="count" value="1537.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -561,16 +566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="63">
-            <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static_files/scheme.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -619,6 +614,16 @@
             <element signature="e#232#283#0" expanded="true" />
             <marker date="1540295189853" expanded="true" signature="370:586" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="336">
+            <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

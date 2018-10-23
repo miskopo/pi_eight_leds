@@ -25,6 +25,7 @@ This program contains several lighting modes using Raspberry Pi (any type, but t
     :red_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :red_circle:
     
 - [ ] lefttoright - lights LEDs from left to right in a loop
+
     :red_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle:
     
     :black_circle: :red_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle:
@@ -39,7 +40,7 @@ This program contains several lighting modes using Raspberry Pi (any type, but t
     
     :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :red_circle: :black_circle: 
     
-    :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :red_circle
+    :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :black_circle: :red_circle:
     
 - [ ] righttoleft - as in lefttoright, but in the other direction
 - [ ] tocenter - as in kitt, but from the edges to the middle

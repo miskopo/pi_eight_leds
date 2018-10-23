@@ -1,13 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ChangeListManager">
+    <list default="true" id="2d101584-0e55-4cc7-b53f-8f3bb4022506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pi_eight_leds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pi_eight_leds.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="381432052">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.88" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="747" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="747" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="168">
+                <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="250" />
+    <option name="y" value="-11" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="23-10-2018">
+        <observation name="false" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:methodsChains">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="23-10-2018">
+        <observation name="cancelled" value="511.0" />
+        <observation name="explicitSelect" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="23-10-2018">
+        <observation name="BASIC" value="5.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="23-10-2018">
+        <observation name="count" value="515.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="-1152.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="-1152.0" />
+        <observation name="min" value="-1152.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="2.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="10.285714" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="12.0" />
+        <observation name="min" value="8.0" />
+        <observation name="variance" value="1.160272" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="23-10-2018">
+        <observation name="UNDEFINED" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="2856.857143" />
+        <observation name="count" value="7.0" />
+        <observation name="max" value="9999.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="9073015.056735" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="23-10-2018">
+        <observation name="0" value="4.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="23-10-2018">
+        <observation name="total" value="2.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="23-10-2018">
+        <observation name="1" value="2.0" />
+        <observation name="2" value="1.0" />
+        <observation name="3" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="23-10-2018">
+        <observation name="average" value="305.857143" />
+        <observation name="count" value="7.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pi_eight_leds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pi_eight_leds" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -15,10 +368,86 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\H228342\AppData\Roaming\Subversion</configuration>
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d101584-0e55-4cc7-b53f-8f3bb4022506" name="Default Changelist" comment="" />
+      <created>1540281940501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540281940501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66702354" visible="true" weight="0.13219616" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="TODO" order="2" sideWeight="0.33297643" side_tool="true" visible="true" weight="0.13219616" />
+      <window_info id="Favorites" order="3" sideWeight="0.50428265" side_tool="true" weight="0.13326226" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32834226" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5030769" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4969231" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39507493" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="3" weight="0.12579957" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Data View" order="7" />
+      <window_info anchor="right" id="Version Control" order="8" show_stripe_button="false" weight="0.1673774" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="168">
+            <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

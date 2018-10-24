@@ -1,8 +1,10 @@
-try:
-    import RPi.GPIO as GPIO
-except (RuntimeError, ImportError):
+from platform import uname
+if uname().machine == 'AMD64':
+    # FIXME
     print("This program must be run on Raspberry Pi with RPi.GPIO module installed. Running with fakeRPiGPIO instead.")
     from RPi import GPIO
+else:
+    import RPi.GPIO as GPIO
 from .arg_parser import init_args
 from .modes import MAX_DELAY, all_on, all_off, kitt, left_to_right, right_to_left, to_center
 

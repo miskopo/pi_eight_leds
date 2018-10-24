@@ -3,3 +3,4 @@ fakeRPiGPIO
 argparse
 pytest==3.3
 codecov
+platform

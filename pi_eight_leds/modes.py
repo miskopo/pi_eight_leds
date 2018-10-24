@@ -1,8 +1,10 @@
 from time import sleep
-try:
-    import RPi.GPIO as GPIO
-except (ImportError, RuntimeError):
+from platform import uname
+if uname().machine == 'AMD64':
+    # FIXME
     from RPi import GPIO
+else:
+    import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 

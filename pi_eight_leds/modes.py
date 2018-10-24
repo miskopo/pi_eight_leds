@@ -1,6 +1,8 @@
 from time import sleep
-
-import RPi.GPIO as GPIO
+try:
+    import RPi.GPIO as GPIO
+except ImportError:
+    from RPi import GPIO
 
 GPIO.setmode(GPIO.BCM)
 
@@ -27,23 +29,26 @@ def all_off(pins):
     GPIO.cleanup(pins)
 
 
-def kitt(pins, speed=500, leave_lit=False):
+def kitt(pins, speed=500, leave_lit=False, iterations=-1):
     """
     Lights LEDs from center to the edges like KITT in Knight Rider
     :param leave_lit: leave used LED lit till next iteration
+    :param iterations: number of iterations to execute, -1 if infinity
     :param speed: speed of the animation, used as sleep(MAX-DELAY-speed)
     :param pins: pins to be used, from left to right
     :return: None
     """
     GPIO.cleanup()
     GPIO.setup(pins, GPIO.OUT, initial=GPIO.LOW)
-    pin_pairs = [(x, y) for x,y, in zip(pins[:4:-1], pins[4:])]
-    while True:
+    pin_pairs = [(x, y) for x, y, in zip(pins[:4:-1], pins[4:])]
+    while iterations == -1 or iterations > 0:
         try:
             for pair in pin_pairs:
-                if leave_lit:
+                if not leave_lit:
                     GPIO.cleanup()
                 GPIO.output(pair, GPIO.HIGH)
+                if iterations != -1 and iterations != 0:
+                    iterations -= 1
                 sleep((MAX_DELAY-speed) / 1000)
             GPIO.cleanup()
         except KeyboardInterrupt:
@@ -52,9 +57,10 @@ def kitt(pins, speed=500, leave_lit=False):
             GPIO.cleanup()
 
 
-def left_to_right(pins, speed=500, leave_lit=False):
+def left_to_right(pins, speed=500, leave_lit=False, iterations=-1):
     """
     Lights LEDs from left edge to right edge
+    :param iterations: number of iterations to execute, -1 if infinity
     :param leave_lit: leave used LED lit till next iteration
     :param pins: pins to be used, from left to right
     :param speed: speed of the animation, used as sleep(MAX-DELAY-speed)
@@ -62,12 +68,14 @@ def left_to_right(pins, speed=500, leave_lit=False):
     """
     GPIO.cleanup()
     GPIO.setup(pins, GPIO.OUT, initial=GPIO.LOW)
-    while True:
+    while iterations == -1 or iterations > 0:
         try:
             for pin in pins:
-                if leave_lit:
+                if not leave_lit:
                     GPIO.cleanup()
                 GPIO.output(pin, GPIO.HIGH)
+                if iterations != -1:
+                    iterations -= 1
                 sleep((MAX_DELAY-speed) / 1000)
         except KeyboardInterrupt:
             return
@@ -75,22 +83,24 @@ def left_to_right(pins, speed=500, leave_lit=False):
             GPIO.cleanup()
 
 
-def right_to_left(pins, speed=500, leave_lit=False):
+def right_to_left(pins, speed=500, leave_lit=False, iterations=-1):
     """
     Lights LEDs from right edge to left edge
     :param leave_lit: leave used LED lit till next iteration
+    :param iterations: number of iterations to execute, -1 if infinity
     :param pins: pins to be used, from left to right
     :param speed: speed of the animation, used as sleep(MAX-DELAY-speed)
     :return: None
     """
     GPIO.cleanup()
-    left_to_right(pins[::-1], speed, leave_lit)
+    left_to_right(pins[::-1], speed, leave_lit, iterations)
 
 
-def to_center(pins, speed=500, leave_lit=False):
+def to_center(pins, speed=500, leave_lit=False, iterations=-1):
     """
     Lights LEDs from the edges to the center (reverse kitt)
     :param leave_lit: leave used LED lit till next iteration
+    :param iterations: number of iterations to execute, -1 if infinity
     :param pins: pins to be used, from left to right
     :param speed: speed of the animation, used as sleep(MAX-DELAY-speed)
     :return: None
@@ -98,7 +108,7 @@ def to_center(pins, speed=500, leave_lit=False):
     GPIO.cleanup()
     GPIO.setup(pins, GPIO.OUT, initial=GPIO.LOW)
     swapped_pins = [pins[3], pins[2], pins[1], pins[0], pins[7], pins[6], pins[5], pins[4]]
-    kitt(swapped_pins, speed, leave_lit)
+    kitt(swapped_pins, speed, leave_lit, iterations)
 
 
 

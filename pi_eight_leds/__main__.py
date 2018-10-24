@@ -5,8 +5,8 @@ except RuntimeError:
           "You can achieve this by using 'sudo' to run your script")
     exit(1)
 except ImportError:
-    print("This program must be run on Raspberry Pi with RPi.GPIO module installed.")
-    exit(1)
+    print("This program must be run on Raspberry Pi with RPi.GPIO module installed. Running with fakeRPiGPIO instead.")
+    from RPi import GPIO
 from .arg_parser import init_args
 from .modes import MAX_DELAY, all_on, all_off, kitt, left_to_right, right_to_left, to_center
 
@@ -14,11 +14,11 @@ GPIO.setmode(GPIO.BCM)
 
 
 def help_text(used_pins):
-    return """
+    print("""
     Used pins: {}\n
     Maximum delay (speed is calculated as MAX_DELAY-speed): {}\n
     Available modes: {}
-    """.format(", ".join(map(str, used_pins)), MAX_DELAY, ", ".join(list(modes.keys())))
+    """.format(", ".join(map(str, used_pins)), MAX_DELAY, ", ".join(list(modes.keys()))))
 
 
 # list of used pins, from left led to right
@@ -34,9 +34,13 @@ modes = {
     'help': help_text
 }
 
-args = init_args()
+
+def main():
+    args = init_args()
+    print("Starting!")
+    modes[args.mode[0]](pins)
+    print("Completed!")
+
 
 if __name__ == '__main__':
-    print("Lighting up!")
-    modes[args['mode']](pins)
-    print("Completed!")
+    main()

@@ -1,5 +1,7 @@
 ## Raspberry Pi eight LED modes
 
+[![Requirements Status](https://requires.io/github/miskopo/pi_eight_leds/requirements.svg?branch=master)](https://requires.io/github/miskopo/pi_eight_leds/requirements/?branch=master)
+
 ### Requirements: :airplane:
 This program contains several lighting modes using Raspberry Pi (any type, but tested on Zero) and is designed for following connection:
 ![Scheme](static_files/scheme.png)

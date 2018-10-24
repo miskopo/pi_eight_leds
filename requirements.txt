@@ -1,5 +1,4 @@
-RPi.GPIO
 fakeRPiGPIO
 argparse
-pytest==3.3
+pytest==3.9.2
 codecov

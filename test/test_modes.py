@@ -1,4 +1,4 @@
-from pi_eight_leds.modes import to_center, kitt
+from pi_eight_leds.modes import to_center
 
 pins = [4, 23, 24, 25, 12, 16, 20, 21]
 

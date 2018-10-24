@@ -49,6 +49,28 @@ This program contains several lighting modes using Raspberry Pi (any type, but t
     
 - [x] righttoleft - as in lefttoright, but in the other direction
 - [x] tocenter - as in kitt, but from the edges to the middle
+
+
+### Installation: :sunflower:
+navigate to project directory and execute
+   ```shell
+pip install .
+```
+
+or if you have both python2 and python3 installed, execute
+```shell
+pip3 install .
+```
+
+### Usage: :rocket:
+If you set up the wiring, it's time to make it glow!
+Usage is simple as follows:
+```shell
+pi_eight_leds MODE [--speed 0-1000] [--leavelit] [--iterations 1-...]
+```
+
+where `MODE` is any mode from top list or `help`, `--leavelit` keeps LEDs lit within the transition. Other parameters are
+pretty self explanatory, aren't they? 
     
 ### Author: :octocat:
 @miskopo

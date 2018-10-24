@@ -1,4 +1,5 @@
 fakeRPiGPIO
 argparse
 pytest==3.9.2
+pytest-cov
 codecov

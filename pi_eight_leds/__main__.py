@@ -11,7 +11,8 @@ from .modes import MAX_DELAY, all_on, all_off, kitt, left_to_right, right_to_lef
 GPIO.setmode(GPIO.BCM)
 
 
-def help_text(used_pins):
+def help_text(used_pins, speed, leavelit, iterations):
+    del speed, leavelit, iterations
     print("""
     Used pins: {}\n
     Maximum delay (speed is calculated as MAX_DELAY-speed): {}\n

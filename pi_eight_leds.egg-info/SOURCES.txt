@@ -8,3 +8,4 @@ pi_eight_leds.egg-info/SOURCES.txt
 pi_eight_leds.egg-info/dependency_links.txt
 pi_eight_leds.egg-info/entry_points.txt
 pi_eight_leds.egg-info/top_level.txt
+test/test_modes.py

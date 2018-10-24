@@ -1,7 +1,7 @@
 from time import sleep
 try:
     import RPi.GPIO as GPIO
-except ImportError:
+except (ImportError, RuntimeError):
     from RPi import GPIO
 
 GPIO.setmode(GPIO.BCM)

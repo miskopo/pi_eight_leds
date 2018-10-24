@@ -1,10 +1,6 @@
 try:
     import RPi.GPIO as GPIO
-except RuntimeError:
-    print("Error importing RPi.GPIO!  This is probably because you need superuser privileges.  "
-          "You can achieve this by using 'sudo' to run your script")
-    exit(1)
-except ImportError:
+except (RuntimeError, ImportError):
     print("This program must be run on Raspberry Pi with RPi.GPIO module installed. Running with fakeRPiGPIO instead.")
     from RPi import GPIO
 from .arg_parser import init_args

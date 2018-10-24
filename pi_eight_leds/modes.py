@@ -1,10 +1,10 @@
-from time import sleep
 from platform import uname
-if uname().machine == 'AMD64':
-    # FIXME
-    from RPi import GPIO
-else:
+from time import sleep
+
+if uname().machine == 'ARMv61':
     import RPi.GPIO as GPIO
+else:
+    from RPi import GPIO
 
 GPIO.setmode(GPIO.BCM)
 

@@ -12,7 +12,16 @@ GPIO.setmode(GPIO.BCM)
 MAX_DELAY = 1000  # ms
 
 
-def all_on(pins):
+def all_on(pins, speed=500, leave_lit=False, iterations=-1):
+    """
+    Turns all LEDs on
+    :param pins: pins to be turned on
+    :param speed: unused
+    :param leave_lit: unused
+    :param iterations: unused
+    :return:
+    """
+    del speed, leave_lit, iterations
     GPIO.cleanup()
     try:
         GPIO.setup(pins, GPIO.OUT, initial=GPIO.HIGH)
@@ -22,12 +31,16 @@ def all_on(pins):
         GPIO.cleanup()
 
 
-def all_off(pins):
+def all_off(pins, speed=500, leave_lit=False, iterations=-1):
     """
     Turns off used pins (but nothing else)
+    :param iterations: unused
+    :param leave_lit: unused
+    :param speed: unused
     :param pins: pins to be turned off
     :return: None
     """
+    del speed, leave_lit, iterations
     GPIO.cleanup(pins)
 
 
@@ -49,10 +62,10 @@ def kitt(pins, speed=500, leave_lit=False, iterations=-1):
                 if not leave_lit:
                     GPIO.cleanup()
                 GPIO.output(pair, GPIO.HIGH)
-                if iterations != -1 and iterations != 0:
-                    iterations -= 1
                 sleep((MAX_DELAY-speed) / 1000)
             GPIO.cleanup()
+            if iterations != -1 and iterations != 0:
+                iterations -= 1
         except KeyboardInterrupt:
             return
         finally:
@@ -76,9 +89,9 @@ def left_to_right(pins, speed=500, leave_lit=False, iterations=-1):
                 if not leave_lit:
                     GPIO.cleanup()
                 GPIO.output(pin, GPIO.HIGH)
-                if iterations != -1:
-                    iterations -= 1
                 sleep((MAX_DELAY-speed) / 1000)
+            if iterations != -1:
+                iterations -= 1
         except KeyboardInterrupt:
             return
         finally:

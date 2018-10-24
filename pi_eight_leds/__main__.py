@@ -36,7 +36,7 @@ modes = {
 def main():
     args = init_args()
     print("Starting!")
-    modes[args.mode[0]](pins)
+    modes[args.mode[0]](pins, args.speed[0], args.leavelit, args.iterations[0])
     print("Completed!")
 
 

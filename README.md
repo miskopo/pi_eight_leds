@@ -4,6 +4,9 @@
 [![codecov](https://codecov.io/gh/miskopo/pi_eight_leds/branch/master/graph/badge.svg)](https://codecov.io/gh/miskopo/pi_eight_leds)
 [![Requirements Status](https://requires.io/github/miskopo/pi_eight_leds/requirements.svg?branch=master)](https://requires.io/github/miskopo/pi_eight_leds/requirements/?branch=master)
 [![License](https://img.shields.io/badge/License-GNU%2FGPLv3-blue.svg)](LICENSE)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/miskopo/pi_eight_leds.svg)
+![GitHub issues](https://img.shields.io/github/issues/miskopo/pi_eight_leds.svg)
+![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/miskopo/pi_eight_leds.svg)
 ![Raspberry Pi models](https://img.shields.io/badge/Raspberry%20Pi-all-%23C51A4A.svg?logo=raspberry-pi&colorA=aaaaaa)
 
 ### Requirements: :airplane:
